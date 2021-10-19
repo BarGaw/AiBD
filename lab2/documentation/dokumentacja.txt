@@ -1,0 +1,4 @@
+Dane wejściowe czyszczone są z niepotrzebnych kolumn ('new_sp', 'new_sp_mu', 'new_sp_fu', 'new_sp_m04', 'new_sp_m514', 'new_sp_f04', 'new_sp_f514').
+Następnie usuwane są recordy, zawierające jedynie NaN'y.
+Dane są "topione" do bardziej użytecznej formy.
+Z dawnych nazw kolumn wyciągane są dane o płci i wieku, z których powstają nowe kolumny.
